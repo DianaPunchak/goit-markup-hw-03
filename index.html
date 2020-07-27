@@ -9,35 +9,37 @@
 </head>
 <body>
     <!--Шапка-->
-  <header>
-      <nav>
+  <header class="header-page">
+      <div class="conteiner">
+         <nav class="main-nav">
             <a class="logo" href="./index.html"><span class="logo-web"> Web</span> <span class="logo-studio">Studio</span></a>
                <ul class="site-nav">
-                   <li><a class="site-nav-studio" href="./index.html">Студия</a></li>
-                   <li><a class="site-nav-portfolio" href="./portfolio.html">Портфолио</a></li>
-                   <li><a class="site-nav-contacts" href="">Контакты</a></li>
+                   <li class="item"><a class="site-nav-studio" href="./index.html">Студия</a></li>
+                   <li class="item"><a class="site-nav-portfolio" href="./portfolio.html">Портфолио</a></li>
+                   <li class="item"><a class="site-nav-contacts" href="">Контакты</a></li>
                </ul>
 
                 <ul class=" contacts-nav">
-                   <li><a class="contacts-nav-meil" href="mailto:info@devstudio.com"><img src="./img/envelope.svg" alt="logo"> info@devstudio.com</a></li>
-                   <li><a class="contacts-nav-tel" href="tel:+380961111111"><img src="./img/Vector.svg" alt="logo"> +38 096 111 11 11</a></li>
+                   <li class="item"><a class="contacts-nav-meil" href="mailto:info@devstudio.com"><img src="./img/envelope.svg" alt="logo"> info@devstudio.com</a></li>
+                   <li class="item"><a class="contacts-nav-tel" href="tel:+380961111111"><img src="./img/Vector.svg" alt="logo"> +38 096 111 11 11</a></li>
                </ul>
-       </nav>
-
+         </nav>
+     </div>
    </header> 
 
    <!--Герой-->
 
    <div class="hero">
        <section class="hero-section">
-           <h1 class="hero-section-title">Эффективные решения для вашего бизнеса</h1>
+           <h1 class="hero-section-title">Эффективные решения <br> для вашего бизнеса</h1>
            <a class="hero-section-button" href="">Заказать услугу</a>
 
        </section>
    </div>
 
    <section class="advantages-section">
-       <ul class="advantages-section-list">
+       <div class="conteiner">
+         <ul class="advantages-section-list list">
            <li class="advantages-list">
                <img src="./img/antena.svg" alt="antena">
                <h3 class="advantages-title">Внимание к деталям</h3>
@@ -59,12 +61,14 @@
                <h3 class="advantages-title">Современные технологии</h3>
                <p class="advantages-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
            </li>
-       </ul>
+         </ul>
+     </div>
    </section>
    <!---Чем мы занимаемся-->
    <section class="work-section">
-       <h2 class="section-title">Чем мы занимаемся</h2>
-       <ul class="work-section-list">
+       <div class="conteiner">
+         <h2 class="section-title">Чем мы занимаемся</h2>
+         <ul class="work-section-list list">
            <li class="work-list">
                <img src="./img/img1.jpg" alt="Десктопные приложения" width="370">
                <h4 class="work-section-title">Десктопные приложения</h4>
@@ -80,22 +84,24 @@
             <h4 class="work-section-title">Дизайнерские решения</h4>
 
            </li>
-       </ul>
+         </ul>
+      </div>
    </section>
    <!---Наша команда-->
    <section class="command-section">
-       <h2 class="section-title">Наша команда</h2>
+       <div class="conteiner">
+         <h2 class="section-title">Наша команда</h2>
 
-       <ul class="command-section-list">
+         <ul class="command-section-list list">
            <li class="command-list">
                <img src="./img/kucherenko.jpg" alt="Николай Кучеренко" width="270">
                <h4 class="command-name">Николай Кучеренко</h4>
                <p class="description">Product Designer</p>
-               <ul>
-                   <li><a class="linc" href=""><img src="./img/instagram2.svg" alt="instagram"></a></li>
-                   <li><a class="linc" href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
-                   <li><a class="linc" href=""><img src="./img/fb.svg" alt="facebook"></a></li>
-                   <li><a class="linc" href=""><img src="./img/ld.svg" alt="in"></a></li>
+               <ul class="icon">
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/instagram2.svg" alt="instagram"></a></li>
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/fb.svg" alt="facebook"></a></li>
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/ld.svg" alt="in"></a></li>
               </ul>
            </li>
 
@@ -104,11 +110,11 @@
                <img src="./img/ivanova.jpg" alt="Ольга Иванова" width="270">
                <h4 class="command-name">Ольга Иванова</h4>
                <p class="description">Frontend Developer</p>
-              <ul>
-                  <li><a class="linc" href=""><img src="./img/instagram2.svg" alt="instagram"></a></li>
-                  <li><a class="linc" href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
-                  <li><a class="linc" href=""><img src="./img/fb.svg" alt="facebook"></a></li>
-                  <li><a class="linc" href=""><img src="./img/ld.svg" alt="in"></a></li>
+              <ul class="icon">
+                  <li class="icon-list"><a class="linc" href=""><img src="./img/instagram2.svg" alt="instagram"></a></li>
+                  <li class="icon-list"><a class="linc" href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
+                  <li class="icon-list"><a class="linc" href=""><img src="./img/fb.svg" alt="facebook"></a></li>
+                  <li class="icon-list"><a class="linc" href=""><img src="./img/ld.svg" alt="in"></a></li>
               </ul>
           </li>
 
@@ -116,11 +122,11 @@
                <img src="./img/shevchenko.jpg" alt="Андрей Шевченко" width="270">
                <h4 class="command-name">Андрей Шевченко</h4>
                <p class="description">Marketing</p>
-               <ul>
-                   <li><a class="linc" href=""><img src="./img/instagram2.svg" alt="instagram"></a></li>
-                   <li><a class="linc" href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
-                   <li><a class="linc" href=""><img src="./img/fb.svg" alt="facebook"></a></li>
-                   <li><a class="linc" href=""><img src="./img/ld.svg" alt="in"></a></li>
+               <ul class="icon">
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/instagram2.svg" alt="instagram"></a></li>
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/fb.svg" alt="facebook"></a></li>
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/ld.svg" alt="in"></a></li>
               </ul>
            </li>
 
@@ -128,47 +134,57 @@
                <img src="./img/nikolaev.jpg" alt="Иван Николаев" width="270">
                <h4 class="command-name">Иван Николаев</h4>
                <p class="description">UI Designer</p>
-               <ul>
-                   <li><a class="linc" href=""><img src="./img/instagram2.svg" alt="instagram"></a></li>
-                   <li><a class="linc" href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
-                   <li><a class="linc" href=""><img src="./img/fb.svg" alt="facebook"></a></li>
-                   <li><a class="linc" href=""><img src="./img/ld.svg" alt="in"></a></li>
+               <ul class="icon">
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/instagram2.svg" alt="instagram"></a></li>
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/fb.svg" alt="facebook"></a></li>
+                   <li class="icon-list"><a class="linc" href=""><img src="./img/ld.svg" alt="in"></a></li>
               </ul>
            </li>
-       </ul>
+         </ul>
+       </div>
    </section>
    <!---Постоянные клиенты-->
    <section class="client-section">
-       <h2 class="section-title">Постоянные клиенты</h2>
-       <ul class="client-section-list">
-           <li><a class="linc" href=""><img src="./img/logo1.svg" alt="1"></a></li>
-           <li><a class="linc" href=""><img src="./img/logo2.svg" alt="2"></a></li>
-           <li><a class="linc" href=""><img src="./img/logo3.svg" alt="3"></a></li>
-           <li><a class="linc" href=""><img src="./img/logo4.svg" alt="4"></a></li>
-           <li><a class="linc" href=""><img src="./img/logo5.svg" alt="5"></a></li>
-           <li><a class="linc" href=""><img src="./img/logo6.svg" alt="6"></a></li>
-       </ul>
+       <div class="conteiner">
+         <h2 class="section-title">Постоянные клиенты</h2>
+         <ul class="client-section-list">
+           <li class="client"><a class="linc" href=""><img src="./img/logo1.svg" alt="1"></a></li>
+           <li class="client"><a class="linc" href=""><img src="./img/logo2.svg" alt="2"></a></li>
+           <li class="client"><a class="linc" href=""><img src="./img/logo3.svg" alt="3"></a></li>
+           <li class="client"><a class="linc" href=""><img src="./img/logo4.svg" alt="4"></a></li>
+           <li class="client"><a class="linc" href=""><img src="./img/logo5.svg" alt="5"></a></li>
+           <li class="client"><a class="linc" href=""><img src="./img/logo6.svg" alt="6"></a></li>
+         </ul>
+     </div>
 
    </section>
    <!---Подвал-->
-   <footer>
-    <a class="logo" href="./index.html"><span class="logo-web"> Web</span> <span class="logo-studio">Studio</span></a>
+   <footer class="footer">
+       <div class="conteiner-footer">
+           <div class="flex">
+           <div class="element">
+              <a class="logo" href="./index.html"><span class="logo-web"> Web</span> <span class="logo-studio-footer">Studio</span></a>
 
-    <address class="address-footer">
-      <span class="address">г. Киев, пр-т Леси Украинки, 26</span> <br>
-      <a class="contacts-footer-meil" href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
-      <a class="contacts-footer-tel" href="tel:+380961111111">+38 096 111 11 11</a>
-    </address>
+             <address class="address-footer">
+                 <span class="address">г. Киев, пр-т Леси Украинки, 26</span> <br>
+                 <a class="contacts-footer-meil" href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
+                 <a class="contacts-footer-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+             </address>
+            </div>
     
-    <!---Присоединяйтесь-->
-    <h4 class="social-networks-title">Присоединяйтесь</h4>
-    <ul class="social-networks-list">
-        <li><a class="linc" href=""><img src="./img/instagram2.svg" alt="instagram"></a></li>
-        <li><a class="linc" href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
-        <li><a class="linc" href=""><img src="./img/fb.svg" alt="facebook"></a></li>
-        <li><a class="linc" href=""><img src="./img/ld.svg" alt="in"></a></li>
-           
-    </ul>
+              <!---Присоединяйтесь-->
+         <div class="element">
+              <h4 class="social-networks-title">Присоединяйтесь</h4>
+              <ul class="social-networks-list">
+                 <li class="icon-list"><a class="linc" href=""><img src="./img/instagram2.svg" alt="instagram"></a></li>
+                 <li class="icon-list"><a class="linc" href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
+                 <li class="icon-list"><a class="linc" href=""><img src="./img/fb.svg" alt="facebook"></a></li>
+                 <li class="icon-list"><a class="linc" href=""><img src="./img/ld.svg" alt="in"></a></li>
+             </ul>
+            </div>
+        </div>
+     </div>
 
    </footer>
 </body>
